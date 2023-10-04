@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: backstage-showcase
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/backstage-showcase/backstage-showcase@sha256:d04f51495418870d0cddd2a2b4c060b3596d6a82146f337e1aa4b6e8a8f1d704
+      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/backstage-showcase/backstage-showcase@sha256:bbe73d44f0651591eee2503747ebd47631a741c5de747fbd6285df198ae2b799
         imagePullPolicy: Always
         name: container-image
         ports:
